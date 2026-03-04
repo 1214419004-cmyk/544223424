@@ -6,6 +6,9 @@ let clicks = 0;
 //variable to show display
 let clickDisplay = document.getElementById("click-display");
 
+//variable to show level display
+let levelDisplay = document.getElementById("level-display")
+
 //click value
 let clickValue = 1
 
@@ -24,6 +27,7 @@ function handleClick() {
 
     if (clicks == 10){
         alert("You have leveled up! Your clicks are now worth 2");
+        levelDisplay.innerText = "Level: 2"
         
     }
 
