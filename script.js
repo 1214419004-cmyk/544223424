@@ -27,8 +27,9 @@ function handleClick() {
 
     if (clicks == 10){
         alert("You have leveled up! Your clicks are now worth 2");
-        levelDisplay.innerText = "Level: 2"
-        
+        levelDisplay.innerText = "Level: 2";
+        clickValue = 2;
+
     }
 
 
